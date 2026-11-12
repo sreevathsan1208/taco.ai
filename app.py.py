@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # Initialize Gemini Client
-API_KEY = "AQ.Ab8RN6KU9hTrweT6pLU0EkuVs_mi6z01aSLGG-assrywi7wsDA"
+API_KEY = "AQ.Ab8RN6LvtMGJuRrh-3rdMU_tSzEfekdAeRNH8tAidSMCa0pYDg"
 client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(page_title="Taco AI Companion", page_icon="🌮", layout="centered")
