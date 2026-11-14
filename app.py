@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # Load API key securely from Streamlit secrets
-API_KEY = st.secrets["GEMINI_API_KEY"]
+API_KEY = "AQ.Ab8RN6KU9hTrweT6pLU0EkuVs_mi6z01aSLGG-assrywi7wsDA"
 client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(page_title="Taco AI Companion", page_icon="🌮", layout="centered")
